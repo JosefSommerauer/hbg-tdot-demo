@@ -7,15 +7,16 @@ sudo apt-get -y install libopencv-dev build-essential cmake git libgtk2.0-dev pk
 
 ##2nd step: Download OpenCV 3.1
 ```Bash
-  mkdir opencv
-  cd opencv
-  wget https://github.com/Itseez/opencv/archive/3.1.0.zip -O opencv-3.1.0.zip
-  unzip opencv-3.1.0.zip
+cd ~
+mkdir opencv
+cd opencv
+wget https://github.com/Itseez/opencv/archive/3.1.0.zip -O opencv-3.1.0.zip
+unzip opencv-3.1.0.zip
 ```
 
 ##3rd step: Install OpenCV
 ```Bash
-cd opencv-3.0.0-alpha
+cd opencv-3.1.0
 mkdir build
 cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D       WITH_OPENGL=ON ..
@@ -25,7 +26,7 @@ sudo make install
 
 ##4th Download, Make and Run Showcase
 ```Bash
-cd~
+cd ~/opencv
 wget https://github.com/JosefSommerauer/hbg-tdot-demo/archive/master.zip -O tdot.zip
 unzip tdot.zip
 rm tdot.zip
