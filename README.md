@@ -20,7 +20,7 @@ sudo make install
 
 ##4th Download, Make and Run Showcase
 ```Bash
-cd ~/opencv
+cd ..
 wget https://github.com/JosefSommerauer/hbg-tdot-demo/archive/master.zip -O tdot.zip
 unzip tdot.zip
 rm tdot.zip
