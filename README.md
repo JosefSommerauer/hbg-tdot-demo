@@ -18,7 +18,7 @@ make -j4 # runs 4 jobs in parallel
 sudo make install
 ```
 
-##4th Download, Make and Run Showcase
+##3th Download, Make and Run Showcase
 ```Bash
 cd ..
 wget https://github.com/JosefSommerauer/hbg-tdot-demo/archive/master.zip -O tdot.zip
