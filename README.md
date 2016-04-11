@@ -26,6 +26,7 @@ unzip tdot.zip
 rm tdot.zip
 cd hbg-tdot-demo-master/
 make
+chmod +x run_showcase.sh 
 sudo su
 ./run_showcase.sh 
 ```
