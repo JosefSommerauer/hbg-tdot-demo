@@ -1,4 +1,5 @@
-# OpenCV Demo - UAS Hagenberg Open House 2016 
+# OpenCV Demo
+UAS Hagenberg Open House 2016 
 
 ##1st step: Install the Dependencies
 ```Bash
