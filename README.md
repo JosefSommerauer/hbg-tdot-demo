@@ -13,7 +13,7 @@ git clone https://github.com/Itseez/opencv_contrib.git
 cd opencv
 mkdir build
 cd build
-cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+cmake -D -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
 make -j4 # runs 4 jobs in parallel
 sudo make install
 ```
