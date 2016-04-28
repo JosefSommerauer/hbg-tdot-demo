@@ -34,7 +34,7 @@ sudo su
 
 ##4th Disable Autofocus
 ```Bash
-sudo apt-get install uvcdynctrl-data
+sudo apt-get -y --force-yes install uvcdynctrl uvcdynctrl-data
 uvcdynctrl -v -d video0 --set='Focus, Auto' 0
 uvcdynctrl -v -d video0 --get='Focus, Auto'
 ```
