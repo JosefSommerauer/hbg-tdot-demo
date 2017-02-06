@@ -19,7 +19,7 @@ make -j4 # runs 4 jobs in parallel
 sudo make install
 ```
 
-##3th Download, Make and Run Showcase
+##3th step: Download, Make and Run Showcase
 ```Bash
 cd ..
 wget https://github.com/JosefSommerauer/hbg-tdot-demo/archive/master.zip -O tdot.zip
@@ -32,7 +32,7 @@ sudo su
 ./run_showcase.sh 
 ```
 
-##4th Disable Autofocus
+##4th step: Disable Autofocus
 ```Bash
 sudo apt-get -y --force-yes install uvcdynctrl uvcdynctrl-data
 uvcdynctrl -v -d video0 --set='Focus, Auto' 0
