@@ -1,7 +1,7 @@
 # OpenCV Demo
 UAS Hagenberg Open House 2016 
 
-##1st step: Install the Dependencies
+## 1st step: Install the Dependencies
 ```Bash
 sudo apt --yes install \
   libopencv-dev build-essential cmake git libgtk2.0-dev \
